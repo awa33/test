@@ -16,9 +16,18 @@ public class Test {
     System.out.println("The diff is " +result1);
     
   }
+  static void mul(){
+
+    int e=20;
+    int f=15;
+    int result2 = c*d;
+    System.out.println("The mult is " +result2);
+    
+  }
   public static void main(String[] args)
   {
     add();
     sub();
+    mul();
   }
 }
