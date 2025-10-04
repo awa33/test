@@ -21,6 +21,5 @@ public class Test {
   {
     add();
     sub();
-    mul();
   }
 }
