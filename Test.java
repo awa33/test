@@ -17,9 +17,19 @@ public class Test {
     
   }
 
+   static void multi(){
+
+    int x=5;
+    int y=8;
+    int result2 = x*y;
+    System.out.println("The multiplcation result is: " +result2);
+    
+  }
+
   public static void main(String[] args)
   {
     add();
     sub();
+    multi();
   }
 }
